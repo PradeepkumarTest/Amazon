@@ -1,0 +1,31 @@
+package com.amazonapp;
+
+import java.util.Scanner;
+
+public class ProgramsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// +even,-even,odd,-odd
+		/*
+		 * int n=10; for(int i=0;i<=n;i++) { if(n>0) {
+		 * System.out.println("even number"); }else { System.out.println("odd number");
+		 * }
+		 */
+		int a = 0, b = 2, c =1;
+		if (a > b) {
+			if (a > c) {
+				System.out.println("a is zero");
+			} else
+				System.out.println("c is +ve odd");
+
+		} else if (b > c) {
+			System.out.println("b is +even");
+		} else
+			System.out.println(" c i +ve odd");
+
+		
+	}
+	
+
+}

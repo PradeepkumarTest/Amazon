@@ -1,0 +1,13 @@
+package com.D;
+
+import org.testng.annotations.Test;
+
+public class LAunchBrowser {
+	
+	
+	@Test
+	public void browserLaunch() {
+		
+	}
+
+}

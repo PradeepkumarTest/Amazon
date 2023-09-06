@@ -1,0 +1,25 @@
+package com.D;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class LAunchBrowser {
+	
+	public WebDriver driver;
+	@Test
+	public void browserLaunch() {
+		/*
+		 * WebDriverManager.chromedriver().setup();
+		 */
+		ChromeOptions co=new ChromeOptions();
+		co.setBrowserVersion("116");
+		
+		driver=new ChromeDriver(co);
+		driver.get("https://www.flipkart.com/");
+	}
+
+}

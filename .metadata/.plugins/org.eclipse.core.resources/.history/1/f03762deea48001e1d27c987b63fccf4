@@ -1,0 +1,11 @@
+package com.D;
+
+public class LAunchBrowser {
+	
+	
+	@Test
+	public void browserLaunch() {
+		
+	}
+
+}

@@ -1,0 +1,37 @@
+package com.amazonapp;
+
+import java.util.Scanner;
+
+public class ProgramsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// +even,-even,odd,-odd
+		/*
+		 * int n=10; for(int i=0;i<=n;i++) { if(n>0) {
+		 * System.out.println("even number"); }else { System.out.println("odd number");
+		 * }
+		 */
+		
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter value of n:");
+		int n=s.nextInt();
+		
+		if(n==0) {
+			System.out.println("zero");
+		}else if(n%2==1)
+		{
+			System.out.println("+odd number");
+		}else if(n%2==-1){
+			System.out.println("-odd number");
+		}else if(n%2==0) {
+			System.out.println("+even number");
+		}	else {
+				System.out.println("-even number");}
+		
+		
+		
+			
+		}
+
+}

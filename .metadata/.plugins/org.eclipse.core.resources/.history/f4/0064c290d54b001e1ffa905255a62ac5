@@ -1,0 +1,60 @@
+package com.amazonapp;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+import dev.failsafe.internal.util.Assert;
+
+public class NavigateBrowser {
+	public static WebDriver driver;
+
+	@Test
+	public void Naviagater() throws Exception {
+
+		Properties p = new Properties();
+
+		String filename = System.getProperty("user.dir");
+
+		FileInputStream fis = new FileInputStream(filename + "\\files\\Drivers.Properties");
+
+		p.load(fis);
+
+		String browername = p.getProperty("browser");
+
+		if (browername.equals("chrome")) {
+
+			driver = new ChromeDriver();
+
+		} else if (browername.equals("firefox")) {
+			driver = new FirefoxDriver();
+			driver.get("https://www.amazon.in/");
+		}
+		driver.get("https://www.amazon.in/");
+		driver.manage().window().maximize();
+
+		String title = driver.getTitle();
+		System.out.println(title);
+		
+		String ActualTitle = driver.getTitle();
+		String ExpectedTitle ="Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in";
+		if(ActualTitle.equals(ExpectedTitle)) {
+			System.out.println("passed");
+			assertEquals(ExpectedTitle, ActualTitle);
+		}
+		
+		
+		
+		
+		
+	}
+
+}

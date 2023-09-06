@@ -1,0 +1,16 @@
+package com.amazonapp;
+
+import java.util.Scanner;
+
+public class ProgramsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// +even,-even,odd,-odd
+		
+		 
+		
+		
+	}
+
+}
