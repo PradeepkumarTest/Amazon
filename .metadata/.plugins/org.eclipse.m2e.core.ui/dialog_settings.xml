@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\prash\eclipse-workspace\AmazonBrowser"/>
 			<item value="C:\Users\prash\eclipse-workspace\flipkart"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -62,11 +63,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="loginDemo"/>
 			<item value="Amazon"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Login"/>
 			<item value="AmazonBrowser"/>
 		</list>
 		<list key="projectNameTemplate">
