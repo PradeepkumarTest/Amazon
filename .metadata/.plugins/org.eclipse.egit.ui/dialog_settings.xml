@@ -19,20 +19,14 @@
 		<item value="https://github.com/PradeepkumarTest/AmazonBrowser.git"/>
 	</list>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
-		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="true"/>
 		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
 		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
 		<item key="sortItemState" value="false"/>
 	</section>
 	<section name="GitCommitMessageComponent">
 		<list key="C:\Users\prash\eclipse-workspace\.git">
-			<item value="false"/>
-			<item value="pradeepkumarTest &lt;pradeepkumard642@gmail.com&gt;"/>
-			<item value="gmo program"/>
-			<item value="pradeepkumarTest &lt;pradeepkumard642@gmail.com&gt;"/>
-			<item value="660b45e9e1884ad153a9decd4034e197732c0f77"/>
-			<item value="0"/>
-			<item value="false"/>
+			<item value="empty"/>
 		</list>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
