@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\prash\Downloads\AugSeleniumJava2023-Raghuveer"/>
 			<item value="C:\Users\prash\eclipse-workspace\AmazonBrowser"/>
 			<item value="C:\Users\prash\eclipse-workspace\flipkart"/>
 		</list>
@@ -20,6 +21,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\prash\eclipse-workspace\DemoProgram"/>
+			<item value="C:\Users\prash\eclipse-workspace\Gmo"/>
 			<item value="C:\Users\prash\eclipse-workspace"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -63,14 +66,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="loginDemo"/>
-			<item value="Amazon"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="Login"/>
-			<item value="AmazonBrowser"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

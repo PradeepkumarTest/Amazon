@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-16T19:28:58 IST" name="Default suite" finished-at="2023-09-16T19:30:31 IST" duration-ms="92940">
+    <groups>
+    </groups>
+    <test started-at="2023-09-16T19:28:58 IST" name="Default test" finished-at="2023-09-16T19:30:31 IST" duration-ms="92940">
+      <class name="productsDetails.Tc_001">
+        <test-method signature="JoggersOrder()[pri:0, instance:productsDetails.Tc_001@235834f2]" started-at="2023-09-16T19:28:58 IST" name="JoggersOrder" finished-at="2023-09-16T19:30:31 IST" duration-ms="92897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JoggersOrder -->
+      </class> <!-- productsDetails.Tc_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

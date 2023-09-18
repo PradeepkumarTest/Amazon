@@ -16,6 +16,7 @@
 	</list>
 	<list key="RepositorySelectionPage.UsedUris">
 		<item value="https://github.com/NVRaghuveerChebrolu/AugSeleniumJava2023.git"/>
+		<item value="https://github.com/PradeepkumarTest/AmazonBrowser.git"/>
 	</list>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
 		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
@@ -24,6 +25,15 @@
 		<item key="sortItemState" value="false"/>
 	</section>
 	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\prash\eclipse-workspace\.git">
+			<item value="false"/>
+			<item value="pradeepkumarTest &lt;pradeepkumard642@gmail.com&gt;"/>
+			<item value="gmo program"/>
+			<item value="pradeepkumarTest &lt;pradeepkumard642@gmail.com&gt;"/>
+			<item value="660b45e9e1884ad153a9decd4034e197732c0f77"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="953"/>
@@ -37,5 +47,12 @@
 		</list>
 	</section>
 	<section name="GitImportWizard">
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="987"/>
+		<item key="DIALOG_Y_ORIGIN" value="220"/>
+		<item key="DIALOG_WIDTH" value="925"/>
+		<item key="DIALOG_HEIGHT" value="462"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>
